@@ -11,32 +11,38 @@ import UIKit
 class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
     
     let modarray = ["abc","def","fdsdsa","fdasfsda","fsadfdsa"]
-    var var2=["abc","d","fd","f","dsa"]
+    //var var2=["abc","d","fd","f","dsa"]
     
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
-        return 2
+        return 1
     }
     
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-            var rows = var2.count
-            if component == 0
-            {
-                rows = modarray.count
-            }
-            return rows;
+            return modarray.count
         }
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
-        var componentStr = var2[row]
-        if component == 0
-        {
-            componentStr = modarray[row]
-        }
-        return componentStr;
-        }
+        
+            return modarray[row]
+    }
     
-
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+        var colour: UIColor
+        
+        switch row {
+        case 1,3,4:
+            colour = UIColor.redColor()
+        case 0,2:
+            colour = UIColor.blueColor()
+        default:
+            colour = UIColor(red: 0.5, green: 0.2, blue: 1.0, alpha: 1.0)
+        
+    }
+        self.view.backgroundColor = colour
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88DB7E0D-490A-4852-B9DC-412340AB7C88</string>
+	<key>IDESourceControlProjectName</key>
+	<string>coustom picker view</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>36C51074F892C8D1AD17E8914D19BB5FA718A71B</key>
+		<string>https://github.com/Mohammad-Saad/coustom-picker-view.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>coustom picker view.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>36C51074F892C8D1AD17E8914D19BB5FA718A71B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Mohammad-Saad/coustom-picker-view.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36C51074F892C8D1AD17E8914D19BB5FA718A71B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36C51074F892C8D1AD17E8914D19BB5FA718A71B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>coustom%20picker%20view</string>
+		</dict>
+	</array>
+</dict>
+</plist>
